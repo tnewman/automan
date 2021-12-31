@@ -1,10 +1,13 @@
 import { NavigationContainer } from "@react-navigation/native";
+import { Provider as PaperProvider } from "react-native-paper";
 import React from "react";
 
 const App = () => {
   return (
-    <NavigationContainer>
-    </NavigationContainer>
+    <PaperProvider>
+      <NavigationContainer>
+      </NavigationContainer>
+    </PaperProvider>
   );
 };
 
